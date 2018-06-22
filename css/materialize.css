@@ -7498,13 +7498,13 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 .table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 15px;
-  border-left: 1px solid #4CAF50;
+  border-left: 1px solid #633078;
 }
 
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 14px;
-  border-left: 2px solid #4CAF50;
+  border-left: 2px solid #633078;
 }
 
 .sidenav {
@@ -8333,7 +8333,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #633078;
 }
 
 .carousel {
