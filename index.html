@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="es">
 
 <head profile="http://www.w3.org/2005/10/profile">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -21,9 +20,24 @@
             <!--<a style="font-family: Penny Script;font-size: 3rem;" id="logo-container" href="#" class="brand-logo">Xurxo Freitas Pereira</a>-->
             <a style="" id="logo-container" href="#" class="brand-logo">Xurxo Freitas Pereira</a>
             <ul class="right hide-on-med-and-down">
-                <li><a class="" style=" overflow: visible;width: 118px;display: block;position:relative"
-                        href="https://github.com/xurxofp"><i class="material-icons">code</i><span
-                            style="top: 0; left: 54px;position: absolute;">GitHub</span></a></li>
+                <li><a class="" style=" overflow: visible;width: 122px;display: block;position:relative" href="https://github.com/xurxofp"><i class="material-icons">code</i><span
+                    style="top: 0; left: 54px;position: absolute;">GitHub</span></a>
+                </li>
+                <li>
+                    <a class="" style=" overflow: visible;width: 100px;display: block;position:relative" onclick="htmlTranslate('en')">
+                        <!-- <link rel="icon" type="image/png" href="fotos/united-kingdom.png"> -->
+                        <div class="image-w bitmap-logo">
+                            <img style="width: 20px; position: relative; top: 5px;" src="fotos/united-kingdom.png" alt="" />
+                        </div>
+                        <span style="top: 0; left: 54px;position: absolute;">EN</span></a>
+                </li>
+                <li>
+                    <a class="" style=" overflow: visible;width: 100px;display: block;position:relative" onclick="htmlTranslate('es')">
+                        <div class="image-w bitmap-logo">
+                            <img style="width: 20px; position: relative; top: 5px;" src="fotos/spain.png" alt="" />
+                        </div>
+                        <span style="top: 0; left: 54px;position: absolute;">ES</span></a>
+                </li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
@@ -40,6 +54,21 @@
                 <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
                 <li><a class="waves-effect" href="https://github.com/xurxofp"><i
                             class="material-icons">code</i>GitHub</a></li>
+                <li>
+                    <a class="" style=" overflow: visible;display: block;position:relative" onclick="htmlTranslate('en')">
+                        <!-- <link rel="icon" type="image/png" href="fotos/united-kingdom.png"> -->
+                        <div class="image-w bitmap-logo">
+                            <img style="width: 20px; position: relative; top: 5px;" src="fotos/united-kingdom.png" alt="" />
+                        </div>
+                        <span style="top: 0; left: 54px;position: absolute;">EN</span></a>
+                </li>
+                <li>
+                    <a class="" style=" overflow: visible;display: block;position:relative" onclick="htmlTranslate('es')">
+                        <div class="image-w bitmap-logo">
+                            <img style="width: 20px; position: relative; top: 5px;" src="fotos/spain.png" alt="" />
+                        </div>
+                        <span style="top: 0; left: 54px;position: absolute;">ES</span></a>
+                </li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -47,29 +76,51 @@
 
     <div class="slider fullscreen" style="position:relative;height: calc(100vh - 64px);width: 100vw;">
         <ul class="slides" style="text-shadow: 1px 1px 8px #000, 0 1px rgba(0,0,0,1);">
-            <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);  class="active"">
+            <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);  class=" active "">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="background-image: url(fotos/PCB.jpg);">
-                    <div class="caption left-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                <div class="caption left-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                    <div lang="en">
+                        <h3>Engineering</h3>
+                        <h5 class="light grey-text text-lighten-3">Understand the world differently</h5>
+                    </div>
+                    <div lang="es">
                         <h3>Ingeniería</h3>
                         <h5 class="light grey-text text-lighten-3">Entender el mundo de otra manera</h5>
                     </div>
-                    </li>
+                </div>
+            </li>
             <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="background-image: url(fotos/code.jpg);">
-                    <div class="caption center-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                <div class="caption center-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                    <div lang="en">
+                        <h3>Programming</h3>
+                        <h5 class="light grey-text text-lighten-3">Make your ideas come true</h5>
+                    </div>
+                    <div lang="es">
                         <h3>Programación</h3>
                         <h5 class="light grey-text text-lighten-3">Hacer realidad tus ideas</h5>
                     </div>
-                    </li>
+                </div>
+            </li>
             <li style="opacity: 1; transform: translateX(0px) translateY(0px);">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="background-image: url(fotos/business.jpg);">
-                    <div class="caption right-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                <div class="caption right-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                    <div lang="en">
+                        <h3>Entrepreneurship</h3>
+                        <h5 class="light grey-text text-lighten-3">More than a hobby</h5>
+                    </div>
+                    <div lang="es">
                         <h3>Emprendimiento</h3>
                         <h5 class="light grey-text text-lighten-3">Más que un hobby</h5>
                     </div>
-                    </li>
+                </div>
+            </li>
         </ul>
-        <ul class="indicators"><li class="indicator-item"></li><li class="indicator-item"></li><li class="indicator-item active"></li></ul>
+        <ul class="indicators">
+            <li class="indicator-item"></li>
+            <li class="indicator-item"></li>
+            <li class="indicator-item active"></li>
+        </ul>
     </div>
 
     <div class="container">
@@ -82,52 +133,76 @@
                         <h2 class="center" style="color: #633078 !important;"><i class="material-icons">attachment</i>
                         </h2>
                         <a href="">
-                            <h5 class="center">Ingeniería</h5>
+                            <div lang="en">
+                                <h5 class="center">Engineering</h5>
+                            </div>
+                            <div lang="es">
+                                <h5 class="center">Ingeniería</h5>
+                            </div>
                         </a>
 
-                        <p class="light">El paso por la carrera de Ingeniería Electrónica Industrial y Automática en la
-                            Universidad de Vigo, me ha hecho aprender y asentar una gran cantidad de conocimientos
-                            teóricos, listos para luego ser aplicados.
-                            Gracias a la era tecnológica y al interés, he podido llevarlos a cabo en una serie de
-                            <a href="https://github.com/xurxofp?tab=repositories">proyectos desarrollados por mi cuenta</a>.</p>
+                        <div lang="en">
+                            <p class="light">Passing through the Industrial Electronic and Automatic Engineering degree at the University of Vigo has made me learn and establish a large amount of theoretical knowledge, ready to be applied later. Thanks to the technological
+                                age and interest, I have been able to carry them out in a series of
+                                <a href="https://github.com/xurxofp?tab=repositories">projects developed by myself</a>.</p>
+                        </div>
+                        <div lang="es">
+                            <p class="light">El paso por la carrera de Ingeniería Electrónica Industrial y Automática en la Universidad de Vigo, me ha hecho aprender y asentar una gran cantidad de conocimientos teóricos, listos para luego ser aplicados. Gracias a la era
+                                tecnológica y al interés, he podido llevarlos a cabo en una serie de
+                                <a href="https://github.com/xurxofp?tab=repositories">proyectos desarrollados por mi cuenta</a>.</p>
+                        </div>
+
+
 
                     </div>
                 </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center" style="color: #633078 !important;"><i class="material-icons">business_center</i></h2>
+                        <a href="">
+                            <div lang="en">
+                                <h5 class="center">Entrepreneurship</h5>
+                            </div>
+                            <div lang="es">
+                                <h5 class="center">Emprendimiento</h5>
+                            </div>
+                        </a>
 
+                        <div lang="en">
+                            <p class="light">Always, I've wanted to "pull the chestnuts out of the fire" myself. Founding my own company, applying all my knowledge, learning more and providing solutions to problems. Its name is DevelopmentTR and it became a reality in
+                                2018. Sometimes I have won and sometimes I have learned. But without a doubt, there is nothing that I recommend more to a person who asserts himself.</p>
+                        </div>
+                        <div lang="es">
+                            <p class="light">Siempre, he querido "sacar las castañas del fuego" yo mismo. Fundar mi propia empresa, aplicar todos mis conocimientos, aprender más y aportar soluciones a problemas. Su nombre es DevelopmentTR y se hizo realidad en el año
+                                2018. Unas veces he ganado y otras he aprendido. Pero sin duda, no hay nada que recomiende más a una persona que se haga valer por si misma.</p>
+                        </div>
+
+                    </div>
+                </div>
                 <div class="col s12 m4">
                     <div class="icon-block">
                         <h2 class="center" style="color: #633078 !important;"><i class="material-icons">code</i></h2>
                         <a href="">
-                            <h5 class="center">Programación</h5>
+                            <div lang="en">
+                                <h5 class="center">Programming</h5>
+                            </div>
+                            <div lang="es">
+                                <h5 class="center">Programación</h5>
+                            </div>
                         </a>
 
-                        <p class="light">Un poco fuera del ámbito de la electrónica, me he interesado mucho por la
-                            codificación y en muchos lenguajes de programación, son una herramienta perfecta para llevar
-                            a cabo proyectos y hacer reales, ideas, que sin ellos serían imposibles.
-                            Fuera de alguna inspiración por alguna asignatura de la carrera, me considero completamente
-                            autodidacta en el mundo de la programación.</p>
+                        <div lang="en">
+                            <p class="light">A little outside the field of electronics, I have become very interested in coding and in many programming languages, they are a perfect tool to carry out projects and make real ideas that would be impossible without them.
+                                Outside of some inspiration for some subject of the career, I consider myself completely self-taught in the world of programming.</p>
+                        </div>
+                        <div lang="es">
+                            <p class="light">Un poco fuera del ámbito de la electrónica, me he interesado mucho por la codificación y en muchos lenguajes de programación, son una herramienta perfecta para llevar a cabo proyectos y hacer reales, ideas, que sin ellos serían
+                                imposibles. Fuera de alguna inspiración por alguna asignatura de la carrera, me considero completamente autodidacta en el mundo de la programación.</p>
+                        </div>
 
                     </div>
                 </div>
 
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center" style="color: #633078 !important;"><i
-                                class="material-icons">business_center</i></h2>
-                        <a href="">
-                            <h5 class="center">Emprendimiento</h5>
-                        </a>
-
-                        <p class="light">
-                            Siempre, he querido "sacar las castañas del fuego" yo mismo. Fundar mi propia empresa,
-                            aplicar todos mis conocimientos, aprender más y aportar soluciones a problemas. Su nombre
-                            es DevelopmentTR y se hizo realidad en el año 2018.
-                            Unas veces he ganado y otas he aprendido. Pero sin duda, no hay nada que recomiende más a
-                            una persona que se haga valer por si misma.
-                        </p>
-
-                    </div>
-                </div>
             </div>
 
         </div>
@@ -139,72 +214,160 @@
             <div class="col s12 m12">
                 <div class="icon-block">
                     <h2 class="center" style="color: #633078 !important;"><i class="material-icons">work</i></h2>
-                    <h4 class="center">¿Qué se hacer?</h4>
+                    <div lang="en">
+                        <h4 class="center">¿What I know?</h4>
+                    </div>
+                    <div lang="es">
+                        <h4 class="center">¿Qué se hacer?</h4>
+                    </div>
+
+
                     </br>
 
-                    <h6 class="center">Capacidades</h6>
-                    <div class="center-align" id="chips">
-                        <div class="chip">Liderazgo</div>
-                        <div class="chip">Aprendizaje rápido</div>
-                        <div class="chip">Trabajo en equipo</div>
-                        <div class="chip">Marketing</div>
-                        <div class="chip">Responsabilidad</div>
-                        <div class="chip">Seriedad</div>
-                        <div class="chip">Trabajo duro</div>
-                        <div class="chip">Organización</div>
-                    </div></br></br>
 
-                    <h6 class="center">Intereses/conocimientos</h6>
-                    <div class="center-align" id="chips">
-                        <div class="chip">Electrónica</div>
-                        <div class="chip">Industria 4.0</div>
-                        <div class="chip">Sistemas embebidos</div>
-                        <div class="chip">Tecnologías móviles (Android/iOS)</div>
-                        <div class="chip">Comunicaciones</div>
-                        <div class="chip">Publicidad</div>
-                        <div class="chip">Automatización</div>
-                        <div class="chip">Impresión 3D</div>
-                        <div class="chip">Diseño de PCBs</div>
-                        <div class="chip">Ingeniería inversa</div>
-                    </div></br></br>
+                    <div lang="en">
+                        <h6 class="center">Capabilities</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Leadership</div>
+                            <div class="chip">Fast learning</div>
+                            <div class="chip">Teamwork</div>
+                            <div class="chip">Marketing</div>
+                            <div class="chip">Responsibility</div>
+                            <div class="chip">Hard work</div>
+                            <div class="chip">Organization</div>
+                        </div>
+                        </br>
+                        </br>
 
-                    <h6 class="center">Lenguajes</h6>
-                    <div class="center-align" id="chips">
-                        <div class="chip">Python</div>
-                        <div class="chip">C/C++</div>
-                        <div class="chip">Ensamblador (Microchip)</div>
-                        <div class="chip">Bash/terminal</div>
-                        <div class="chip">VHDL</div>
-                        <div class="chip">C#</div>
-                        <div class="chip">Java</div>
-                        <div class="chip">HTML y CSS</div>
-                        <div class="chip">Javascript</div>
-                        <div class="chip">Typescript</div>
-                        <div class="chip">PHP</div>
-                        <div class="chip">Visual basic</div>
-                        <div class="chip">Swift</div>
+                        <h6 class="center">Interests/knowledge</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Electronics</div>
+                            <div class="chip">Industry 4.0</div>
+                            <div class="chip">Embedded systems</div>
+                            <div class="chip">Mobile technologies (Android/iOS)</div>
+                            <div class="chip">Communications</div>
+                            <div class="chip">Advertising</div>
+                            <div class="chip">Automation</div>
+                            <div class="chip">3d printing</div>
+                            <div class="chip">PCB Design</div>
+                            <div class="chip">Reverse engineering</div>
+                        </div>
+                        </br>
+                        </br>
+
+                        <h6 class="center">Programming languages</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Python</div>
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Assembler (Microchip)</div>
+                            <div class="chip">Bash/terminal</div>
+                            <div class="chip">VHDL</div>
+                            <div class="chip">C#</div>
+                            <div class="chip">Java</div>
+                            <div class="chip">HTML y CSS</div>
+                            <div class="chip">Javascript</div>
+                            <div class="chip">Typescript</div>
+                            <div class="chip">PHP</div>
+                            <div class="chip">Visual basic</div>
+                            <div class="chip">Swift</div>
+                        </div>
+                        </br>
+                        </br>
+
+                        <h6 class="center">Specialized software</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Docker</div>
+                            <div class="chip">Zabbix</div>
+                            <div class="chip">Grafana</div>
+                            <div class="chip">Andoid Studio</div>
+                            <div class="chip">Xcode</div>
+                            <div class="chip">Matlab</div>
+                            <div class="chip">Fusion360</div>
+                            <div class="chip">Autocad</div>
+                            <div class="chip">Eagle</div>
+                            <div class="chip">Solidworks</div>
+                            <div class="chip">Photoshop</div>
+                            <div class="chip">Illustrator</div>
+                            <div class="chip">Office</div>
+                            <div class="chip">Amazon AWS</div>
+                            <div class="chip">Arduino</div>
+                            <div class="chip">All operating systems</div>
+                        </div>
                     </div>
-                    </br></br>
 
-                    <h6 class="center">Software especializado</h6>
-                    <div class="center-align" id="chips">
-                        <div class="chip">Docker</div>
-                        <div class="chip">Zabbix</div>
-                        <div class="chip">Grafana</div>
-                        <div class="chip">Andoid Studio</div>
-                        <div class="chip">Xcode</div>
-                        <div class="chip">Matlab</div>
-                        <div class="chip">Fusion360</div>
-                        <div class="chip">Autocad</div>
-                        <div class="chip">Eagle</div>
-                        <div class="chip">Solidworks</div>
-                        <div class="chip">Photoshop</div>
-                        <div class="chip">Illustrator</div>
-                        <div class="chip">Office</div>
-                        <div class="chip">Amazon AWS</div>
-                        <div class="chip">Arduino</div>
-                        <div class="chip">Todos los sistemas operativos</div>
+
+
+                    <div lang="es">
+                        <h6 class="center">Capacidades</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Liderazgo</div>
+                            <div class="chip">Aprendizaje rápido</div>
+                            <div class="chip">Trabajo en equipo</div>
+                            <div class="chip">Marketing</div>
+                            <div class="chip">Responsabilidad</div>
+                            <div class="chip">Trabajo duro</div>
+                            <div class="chip">Organización</div>
+                        </div>
+                        </br>
+                        </br>
+
+                        <h6 class="center">Intereses/conocimientos</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Electrónica</div>
+                            <div class="chip">Industria 4.0</div>
+                            <div class="chip">Sistemas embebidos</div>
+                            <div class="chip">Tecnologías móviles (Android/iOS)</div>
+                            <div class="chip">Comunicaciones</div>
+                            <div class="chip">Publicidad</div>
+                            <div class="chip">Automatización</div>
+                            <div class="chip">Impresión 3D</div>
+                            <div class="chip">Diseño de PCBs</div>
+                            <div class="chip">Ingeniería inversa</div>
+                        </div>
+                        </br>
+                        </br>
+
+                        <h6 class="center">Lenguajes</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Python</div>
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Ensamblador (Microchip)</div>
+                            <div class="chip">Bash/terminal</div>
+                            <div class="chip">VHDL</div>
+                            <div class="chip">C#</div>
+                            <div class="chip">Java</div>
+                            <div class="chip">HTML y CSS</div>
+                            <div class="chip">Javascript</div>
+                            <div class="chip">Typescript</div>
+                            <div class="chip">PHP</div>
+                            <div class="chip">Visual basic</div>
+                            <div class="chip">Swift</div>
+                        </div>
+                        </br>
+                        </br>
+
+                        <h6 class="center">Software especializado</h6>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Docker</div>
+                            <div class="chip">Zabbix</div>
+                            <div class="chip">Grafana</div>
+                            <div class="chip">Andoid Studio</div>
+                            <div class="chip">Xcode</div>
+                            <div class="chip">Matlab</div>
+                            <div class="chip">Fusion360</div>
+                            <div class="chip">Autocad</div>
+                            <div class="chip">Eagle</div>
+                            <div class="chip">Solidworks</div>
+                            <div class="chip">Photoshop</div>
+                            <div class="chip">Illustrator</div>
+                            <div class="chip">Office</div>
+                            <div class="chip">Amazon AWS</div>
+                            <div class="chip">Arduino</div>
+                            <div class="chip">Todos los sistemas operativos</div>
+                        </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -217,14 +380,72 @@
                 <div class="col s12 center">
                     <h4><i class="mdi-content-send brown-text"></i></h4>
                     <div class="icon-block">
-                        <h2 class="center" style="color: #633078 !important;"><i
-                                class="material-icons">school</i></h2>
-                        <h4 class="center">Experiencia</h4></br>
+                        <h2 class="center" style="color: #633078 !important;"><i class="material-icons">school</i></h2>
+                        <div lang="en">
+                            <h4 class="center">Experience</h4>
+                        </div>
+                        <div lang="es">
+                            <h4 class="center">Experiencia</h4>
+                        </div>
+
+                        </br>
                     </div>
                 </div>
             </div>
             <section id="timeline">
-                <ul>
+                <ul lang="en">
+                    <li>
+                        <div>
+                            <h4>Present</h4>
+                            <p>I combine my work as a Project Engineer at Muutech, while carrying out other projects in my company, DevelopmentTR, and other personal projects.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>2019</h4>
+                            <h5>Completion of studies</h5>
+                            <p>Industrial Electronic and Automatic Engineering - University of Vigo</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>2018 - Present</h4>
+                            <h5>DevelopmentTR</h5>
+                            <h6>Co-founder</h6>
+                            <p>With the success obtained, both in AndroidTR and in Development Colors, I decided to take the next step, ceasing to be autonomous to create my own company and join the two activities that I had been doing for the previous 4
+                                years.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>2018 - Present</h4>
+                            <h5><a href="https://www.muutech.com">Muutech - Monitoring Sollutions</a></h5>
+                            <h6>Project Engineer</h6>
+                            <p>I entered the company as the first employee and continue to this day. Since then, I share all my knowledge and dedication to make the company and new colleagues grow over time.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>2017</h4>
+                            <h5><a href="https://play.google.com/store/apps/dev?id=4927050975116994908&hl=es">Development Colors</a></h5>
+                            <h6>Co-founder</h6>
+                            <p>Together with a university friend, we created Development Colors.</p>
+                            <p>Dedicated to the creation of mobile applications, we have created a large number of "apps", among which are WhatisRemoved, with more than 10 million downloads and a million active users, pass2pay, and many others.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>2014</h4>
+                            <h5><a href="https://androidtr.es">AndroidTR.es</a>
+                                <h6>Founder</h6>
+                                <br>
+                                <p>Active until today, it is one of the reference websites in terms of mobile technology news</p>
+                                <p>In it, I developed my knowledge about systems administration, LAMP servers, wordpress and in the last time, Docker, nginx and <a href="https://caddyserver.com">Caddy</a></p>
+                        </div>
+                    </li>
+                </ul>
+                <ul lang="es">
                     <li>
                         <div>
                             <h4>Actualidad</h4>
@@ -243,41 +464,45 @@
                             <h4>2018 - Actualidad</h4>
                             <h5>DevelopmentTR</h5>
                             <h6>Cofundador</h6>
-                            <p>Con el éxito obtenido, tanto en AndroidTR como en Development Colors, decidí dar el siguiente paso, dejando de ser autónomo para dar forma a mi propia empresa y juntar las dos actividades que llevaba haciendo los 4 anteriores años.</p>
+                            <p>Con el éxito obtenido, tanto en AndroidTR como en Development Colors, decidí dar el siguiente paso, dejando de ser autónomo para dar forma a mi propia empresa y juntar las dos actividades que llevaba haciendo los 4 anteriores
+                                años.
+                            </p>
                         </div>
-                    </li>     
+                    </li>
                     <li>
                         <div>
                             <h4>2018 - Actualidad</h4>
                             <h5><a href="https://www.muutech.com">Muutech - Monitoring Sollutions</a></h5>
                             <h6>Ingeniero de proyecto</h6>
-                            <p>Entré en la empresa como el primer empleado y continúo hasta el momento. Desde entonces, comparto todos mis conocimientos y dedicación en hacer crecer a la empresa y a los nuevos compañeros, que se han ido uniendo al proyecto con el paso del tiempo.</p>
+                            <p>Entré en la empresa como el primer empleado y continúo hasta el momento. Desde entonces, comparto todos mis conocimientos y dedicación en hacer crecer a la empresa y a los nuevos compañeros, que se han ido uniendo al proyecto
+                                con el paso del tiempo.</p>
                         </div>
-                    </li>  
+                    </li>
                     <li>
                         <div>
                             <h4>2017</h4>
                             <h5><a href="https://play.google.com/store/apps/dev?id=4927050975116994908&hl=es">Development Colors</a></h5>
                             <h6>Cofundador</h6>
                             <p>Junto a un compañero de universidad, creamos Development Colors.</p>
-                            <p>Dedicados a la creación de aplicaciones móviles, hemos creado una gran cantidad de "apps", entre las que se encuentran WhatsRemoved, (eliminada de la Play Store tras una denuncia de Facebook) y whatsremoved+ rozando en la actualidad los 10 millones de descargas y un millón de usuarios activos.</p>
+                            <p>Dedicados a la creación de aplicaciones móviles, hemos creado una gran cantidad de "apps", entre las que se encuentran WhatsRemoved, (eliminada de la Play Store tras una denuncia de Facebook) y whatsremoved+ rozando en la actualidad
+                                los 10 millones de descargas y un millón de usuarios activos.</p>
                         </div>
                     </li>
                     <li>
                         <div>
                             <h4>2014</h4>
                             <h5><a href="https://androidtr.es">AndroidTR.es</a>
-                            <h6>Fundador</h6>
-                            <br>
-                            <p>Activa hasta la actualidad, se trata de una de las webs referencia en cuanto a la actualidad tecnologica móvil</p>
-                            <p>En ella, desarrollé mis conocimientos sobre administración de sistemas, servidores LAMP, wordpress y en la última época, Docker, nginx y <a href="https://caddyserver.com">Caddy</a></p>
+                                <h6>Fundador</h6>
+                                <br>
+                                <p>Activa hasta la actualidad, se trata de una de las webs referencia en cuanto a la actualidad tecnologica móvil</p>
+                                <p>En ella, desarrollé mis conocimientos sobre administración de sistemas, servidores LAMP, wordpress y en la última época, Docker, nginx y <a href="https://caddyserver.com">Caddy</a></p>
                         </div>
                     </li>
                 </ul>
             </section>
         </div>
     </div>
-        
+
 
     <div class="container" id="Proyectos">
         <div class="section scrollspy" id="proyectos">
@@ -285,51 +510,109 @@
                 <div class="col s12 center">
                     <h4><i class="mdi-content-send brown-text"></i></h4>
                     <div class="icon-block">
-                        <h2 class="center" style="color: #633078 !important;"><i
-                                class="material-icons">chrome_reader_mode</i></h2>
-                        <h4 class="center">Otros proyectos personales / hobbies</h4></br>
+                        <h2 class="center" style="color: #633078 !important;"><i class="material-icons">chrome_reader_mode</i></h2>
+                        <h4 lang="en" class="center">Other personal projects / hobbies</h4>
+                        <h4 lang="es" class="center">Otros proyectos personales / hobbies</h4>
+                        </br>
                     </div>
-                    <p class="left-align light">Como respuesta a los problemas e inquietudes que he ido teniendo con el paso de los años, he completado una serie de proyectos que considero interesantes:</p>
+                    <p lang="en" class="left-align light">In response to the problems and concerns that I have had over the years, I have completed a series of projects that I find interesting:</p>
+                    <p lang="es" class="left-align light">Como respuesta a los problemas e inquietudes que he ido teniendo con el paso de los años, he completado una serie de proyectos que considero interesantes:</p>
+
                     <br>
 
-                    <h5 class="center"><a href="https://github.com/xurxofp/qmk_firmware">Teclado de PC 60%</a></h5>
-                    <div class="center-align" id="chips">
-                        <div class="chip">Impresión 3D</div>
-                        <div class="chip">C/C++</div>
-                        <div class="chip">Arduino</div>
-                        <div class="chip">Electrónica</div>
+                    <div lang="en">
+                        <h5 class="center"><a href="https://github.com/xurxofp/qmk_firmware">60% PC Keyboard</a></h5>
+                        <div class="center-align" id="chips">
+                            <div class="chip">3D Printing</div>
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Arduino</div>
+                            <div class="chip">Electronics</div>
+                        </div>
                     </div>
-                    <br>
-                    <p class="left-align light">Uno de los proyectos más complejos y largos que he completado. Un teclado para PC 100% configurable y retroiluminado.</p>
-                    <p class="left-align light">Un fabuloso ejemplo de la unión de la programación, la impresión 3D y de la electrónica.</p>
-                    <br><br>
-                    
-                    <h5 class="center"><a href="https://github.com/xurxofp/VFS5">Emulador de pedalera VFS5 para amplificador de guitarra VOX</a></h5>
-                    <div class="center-align" id="chips">
-                        <div class="chip">Diseño de PCBs</div>
-                        <div class="chip">Ingeniería inversa</div>
-                        <div class="chip">C/C++</div>
-                        <div class="chip">Arduino</div>
-                        <div class="chip">Electrónica</div>
+                    <div lang="es">
+                        <h5 class="center"><a href="https://github.com/xurxofp/qmk_firmware">Teclado de PC 60%</a></h5>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Impresión 3D</div>
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Arduino</div>
+                            <div class="chip">Electrónica</div>
+                        </div>
                     </div>
+
                     <br>
-                    <p class="left-align light">Un emulador de la pedalera del amplificador de guitarra Vox VT. Simulando el funcionamiento del circuito analógico original en software y añadiéndole algunas mejoras de funcionamiento y control.</p>
+                    <div lang="en">
+                        <p class="left-align light">One of the most complex and lengthy projects I have ever completed. A 100% configurable and backlit PC keyboard.</p>
+                        <p class="left-align light">A fabulous example of the union of programming, 3D printing and electronics.</p>
+                    </div>
+                    <div lang="es">
+                        <p class="left-align light">Uno de los proyectos más complejos y largos que he completado. Un teclado para PC 100% configurable y retroiluminado.</p>
+                        <p class="left-align light">Un fabuloso ejemplo de la unión de la programación, la impresión 3D y de la electrónica.</p>
+                    </div>
                     <br><br>
 
-                    <h5 class="center"><a href="https://github.com/xurxofp/ESP8266_IoT">ESP32/ESP8266</a></h5>
-                    <div class="center-align" id="chips">
-                        <div class="chip">C/C++</div>
-                        <div class="chip">Python</div>
-                        <div class="chip">Electrónica</div>
+                    <div lang="en">
+                        <h5 class="center"><a href="https://github.com/xurxofp/VFS5">VOX VFS5 footswitch emulator for VOX amplifiers</a></h5>
+                        <div class="center-align" id="chips">
+                            <div class="chip">PCB Design</div>
+                            <div class="chip">Reverse engineering</div>
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Arduino</div>
+                            <div class="chip">Electronics</div>
+                        </div>
+                        <br>
+                        <p class="left-align light">VOX VFS5 footswitch emulator for VOX amplifiers. By simulating the operation of the original analog circuit in software and adding some improvements in operation and control.</p>
+                        <br><br>
                     </div>
-                    <br>
-                    <p class="left-align light">Se trata de un dispositivo muy utilizado, sobre todo para construcciones basadas en el internet de las cosas (IoT).</p>
-                    <p class="left-align light">Debido principalmente a las posibilidades de conexión por Bluetooth y wifi, su potencia de procesamiento y su bajo coste, es el chip con el que más experiencia tengo. Sobre todo para hacer soluciones sencillas como la enlazada en el título.</p>
-                    <br><br>
+
+                    <div lang="es">
+                        <h5 class="center"><a href="https://github.com/xurxofp/VFS5">Emulador de pedalera VFS5 para amplificador de guitarra VOX</a></h5>
+                        <div class="center-align" id="chips">
+                            <div class="chip">Diseño de PCBs</div>
+                            <div class="chip">Ingeniería inversa</div>
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Arduino</div>
+                            <div class="chip">Electrónica</div>
+                        </div>
+                        <br>
+                        <p class="left-align light">Un emulador de la pedalera del amplificador de guitarra Vox VT. Simulando el funcionamiento del circuito analógico original en software y añadiéndole algunas mejoras de funcionamiento y control.</p>
+                        <br><br>
+                    </div>
+
+                    <div lang="en">
+                        <h5 class="center"><a href="https://github.com/xurxofp/ESP8266_IoT">ESP32/ESP8266</a></h5>
+                        <div class="center-align" id="chips">
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Python</div>
+                            <div class="chip">Electronics</div>
+                        </div>
+                        <br>
+                        <p class="left-align light">It is a widely used device, especially for constructions based on the Internet of Things (IoT).</p>
+                        <p class="left-align light">Mainly due to the possibilities of connecting via Bluetooth and Wi-Fi, its processing power and its low cost, it is the chip with which I have the most experience. Especially to make simple solutions like the one linked in the
+                            title.
+                        </p>
+                    </div>
+                    <div lang="es">
+                        <h5 class="center"><a href="https://github.com/xurxofp/ESP8266_IoT">ESP32/ESP8266</a></h5>
+                        <div class="center-align" id="chips">
+                            <div class="chip">C/C++</div>
+                            <div class="chip">Python</div>
+                            <div class="chip">Electrónica</div>
+                        </div>
+                        <br>
+                        <p class="left-align light">Se trata de un dispositivo muy utilizado, sobre todo para construcciones basadas en el internet de las cosas (IoT).</p>
+                        <p class="left-align light">Debido principalmente a las posibilidades de conexión por Bluetooth y wifi, su potencia de procesamiento y su bajo coste, es el chip con el que más experiencia tengo. Sobre todo para hacer soluciones sencillas como la enlazada
+                            en el título.
+                        </p>
+                    </div>
+
 
                 </div>
+
+                <br><br>
+
             </div>
         </div>
+    </div>
     </div>
     </div>
 
@@ -337,35 +620,54 @@
     <div class="container" id="contacto">
         <div class="section scrollspy" id="contacto">
 
-            <p class="light center">Puedes encontrar algunos de mis proyectos en este sector y en otros, en mi <a
-                href="https://github.com/xurxofp">GitHub</a></p>
+            <p lang="en" class="light center">You can find some of my projects in this sector and in others, in my <a href="https://github.com/xurxofp">GitHub</a></p>
+            <p lang="es" class="light center">Puedes encontrar algunos de mis proyectos en este sector y en otros, en mi <a href="https://github.com/xurxofp">GitHub</a></p>
             <br><br>
             <div class="row">
                 <div class="col s12 center">
                     <img class="circle" style="width:25%" src="fotos/xurxo.jpg">
                     <h4><i class="mdi-content-send brown-text"></i></h4>
-                    <h5>Contáctame</h5>
+                    <h5 lang="en">Contact me</h5>
+                    <h5 lang="es">Contáctame</h5>
                 </div>
             </div>
         </div>
         <div class="row">
-            <form action="https://formspree.io/fepreitas@gmail.com" method="POST">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" name="email">
-                    <label for="email">Email</label>
-                    <span class="helper-text" data-error="Correo no válido" data-success="Correo correcto">Introduce
-                        aquí tu correo electrónico</span>
-                </div>
-                <div class="input-field col s12">
-                    <textarea id="text" type="text" class="materialize-textarea" name="message"></textarea>
-                    <label for="text">Cuerpo del mensaje</label>
-                    <span class="helper-text">Introduce aquí lo que me quieras enviar</span>
-                </div>
-                <button class="btn waves-effect waves-light"
-                    style="margin: 20px auto;width: 100%;background-color:#633078;" type="submit" name="action">Enviar
+            <div lang="en">
+                <form action="https://formspree.io/fepreitas@gmail.com" method="POST">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" name="email">
+                        <label for="email">Email</label>
+                        <span class="helper-text" data-error="Invalid email" data-success="Correct mail">Enter your email here</span>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="text" type="text" class="materialize-textarea" name="message"></textarea>
+                        <label for="text">Message body</label>
+                        <span class="helper-text">Enter here what you want to send me</span>
+                    </div>
+                    <button class="btn waves-effect waves-light" style="margin: 20px auto;width: 100%;background-color:#633078;" type="submit" name="action">Send
                     <i class="material-icons right">send</i>
                 </button>
-            </form>
+                </form>
+            </div>
+            <div lang="es">
+                <form action="https://formspree.io/fepreitas@gmail.com" method="POST">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" name="email">
+                        <label for="email">Email</label>
+                        <span class="helper-text" data-error="Correo no válido" data-success="Correo correcto">Introduce
+                        aquí tu correo electrónico</span>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="text" type="text" class="materialize-textarea" name="message"></textarea>
+                        <label for="text">Cuerpo del mensaje</label>
+                        <span class="helper-text">Introduce aquí lo que me quieras enviar</span>
+                    </div>
+                    <button class="btn waves-effect waves-light" style="margin: 20px auto;width: 100%;background-color:#633078;" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+                </form>
+            </div>
         </div>
     </div>
 
@@ -385,20 +687,25 @@
 <footer style="background-color: #ffffff!important;" class="page-footer teal">
     <div class="container section scrollspy" id="tercero">
         <div class="row">
-            <div class="col l12 s12">
-                <h5 style="color: rgba(0, 0, 0, 0.87);">¡Gracias!</h5>
-                <p style="color: rgba(0, 0, 0, 0.50);">Gracias por visitar mi web en GitHub, espero que todo haya ido a
-                    tu gusto. Si quieres alguna otra información no dudes en usar la sección de contacto.</p>
-
-
+            <div lang="en">
+                <div class="col l12 s12">
+                    <h5 style="color: rgba(0, 0, 0, 0.87);">Thanks!</h5>
+                    <p style="color: rgba(0, 0, 0, 0.50);">Thank you for visiting my website on GitHub, I hope everything went to your liking. If you want any other information, do not hesitate to use the contact section.</p>
+                </div>
             </div>
+            <div lang="es">
+                <div class="col l12 s12">
+                    <h5 style="color: rgba(0, 0, 0, 0.87);">¡Gracias!</h5>
+                    <p style="color: rgba(0, 0, 0, 0.50);">Gracias por visitar mi web en GitHub, espero que todo haya ido a tu gusto. Si quieres alguna otra información no dudes en usar la sección de contacto.</p>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container" style="color: rgba(0, 0, 0, 0.50);">
-            Página web escrita por <a style="color:#633078 !important" href="https://xurxofp.github.io">Xurxo Freitas
-                Pereira</a> con la ayuda de <a style="color:#633078 !important"
-                href="https://materializecss.com/">MaterializeCSS</a>
+            Website written by <a style="color:#633078 !important" href="https://xurxofp.github.io">Xurxo Freitas
+                Pereira</a> with <a style="color:#633078 !important" href="https://materializecss.com/">MaterializeCSS</a>
         </div>
     </div>
 </footer>
@@ -414,15 +721,29 @@
      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
      </ul>
      </div>-->
-<div class="columna hide-on-med-and-down">
-    <ul class="section table-of-contents">
-        <li><a href="#info">Información</a></li>
-        <li><a href="#capacidades">Capacidades</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
+<div lang="en">
+    <div class="columna hide-on-med-and-down">
+        <ul class="section table-of-contents">
+            <li><a href="#info">Information</a></li>
+            <li><a href="#capacidades">Capabilities</a></li>
+            <li><a href="#experiencia">Experience</a></li>
+            <li><a href="#proyectos">Proyects</a></li>
+            <li><a href="#contacto">Contact</a></li>
+        </ul>
+    </div>
 </div>
+<div lang="es">
+    <div class="columna hide-on-med-and-down">
+        <ul class="section table-of-contents">
+            <li><a href="#info">Información</a></li>
+            <li><a href="#capacidades">Capacidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
 
 
 <!--  Scripts-->
