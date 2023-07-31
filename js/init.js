@@ -39,7 +39,7 @@
 
  function htmlTranslate(language) {
      console.log(language)
-     const arr = ['es', 'en'];
+     const arr = ['es', 'en', 'pt'];
      if (arr.includes(language)) {
          let lang = ':lang(' + language + ')';
          let hide = '[lang]:not(' + lang + ')';

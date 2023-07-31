@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
     font-family: "Penny Script";
     src: url(//cortesfilms.es/fonts/Penny_Script.ttf) format("truetype");
-}
+} */
 
 [lang] {
     display: none;
 }
 
-[lang=en] {
+[lang=es] {
     display: unset;
 }
 
@@ -230,4 +230,9 @@ h1 {
         border-width: 8px 16px 8px 0;
         border-color: transparent var(--secondary-color) transparent transparent;
     }
+}
+
+.right-list {
+    direction: rtl;
+    unicode-bidi: embed;
 }
